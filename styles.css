@@ -1,0 +1,9 @@
+.title {
+  color: green;
+}
+
+div {
+  width: 300px;
+  margin: auto;
+  padding-bottom: 50px;
+}

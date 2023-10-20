@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <script>// Pass the API key to the client-side JavaScript
+      window.API_KEY = '<%= process.env.WEATHER_API_KEY %>';
+    </script>
+  </head>
+  <body>
+    <div class="w3-card-4 w3-margin w3-center" style="width:25%">
+      <div class="w3-display-container">
+      <h1 class="title">Weather API</h1>
+      <div id="output"></div>
+      <input type="text" id="intake" />
+
+      <button>Click</button>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
