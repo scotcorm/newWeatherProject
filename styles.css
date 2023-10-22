@@ -53,3 +53,14 @@
 .bd-mode-toggle {
   z-index: 1500;
 }
+
+/* JUMBOTRON STYLE HERE */
+.container-fluid {
+  background: linear-gradient(rgba(0, 0, 250, 0.25), rgba(125, 250, 250, 0.45)),
+    url('https://upload.wikimedia.org/wikipedia/commons/b/b9/Chicago_Skyline_%2815860364731%29.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white !important;
+  height: 70vh;
+  background-size: cover;
+}
