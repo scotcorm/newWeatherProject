@@ -8,6 +8,5 @@
 |- README.md
 |- script.js
 |- server.js
-   |- (hidden)api-key
 |- styles.css
 ```
