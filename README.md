@@ -1,5 +1,5 @@
 # newWeatherProject
-"""
+```
 |- .gitignore
    |- server.js
 |- index.html
@@ -10,4 +10,4 @@
 |- server.js
    |- (hidden)api-key
 |- styles.css
-"""
+```
