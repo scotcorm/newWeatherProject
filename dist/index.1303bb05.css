@@ -1,0 +1,67 @@
+.bd-placeholder-img {
+  text-anchor: middle;
+  -webkit-user-select: none;
+  user-select: none;
+  font-size: 1.125rem;
+}
+
+@media (width >= 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  background-color: #0000001a;
+  border: 1px solid #00000026;
+  border-width: 1px 0;
+  width: 100%;
+  height: 3rem;
+  box-shadow: inset 0 .5em 1.5em #0000001a, inset 0 .125em .5em #00000026;
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.btn-bd-primary {
+  --bd-violet-bg: #712cf9;
+  --bd-violet-rgb: 112.521, 44.0622, 249.438;
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #6528e0;
+  --bs-btn-hover-border-color: #6528e0;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #5a23c8;
+  --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+.container-fluid {
+  background-color: #0000;
+  background-image: linear-gradient(#0000fa40, #7dfafa73), url("https://upload.wikimedia.org/wikipedia/commons/b/b9/Chicago_Skyline_%2815860364731%29.jpg");
+  background-position: 0 0, 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-origin: padding-box, padding-box;
+  background-clip: border-box, border-box;
+  height: 70vh;
+  color: #fff !important;
+}
+
+/*# sourceMappingURL=index.1303bb05.css.map */
