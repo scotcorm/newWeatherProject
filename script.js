@@ -28,5 +28,5 @@ async function getWeather(){
 }
 
 function displayWeather(weatherData) {
-  output.innerHTML = `<img src="${weatherData.current.condition.icon}" alt="weather icon"> \n In ${weatherData.location.name} currently the Temperature is: ${weatherData.current.temp_c}°C`;
+  output.innerHTML = `<img src="${weatherData.current.condition.icon}" alt="weather icon"> \n In ${weatherData.location.name}, currently the Temperature is: ${weatherData.current.temp_c}°C`;
 }
